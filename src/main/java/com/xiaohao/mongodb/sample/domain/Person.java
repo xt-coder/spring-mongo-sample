@@ -1,10 +1,12 @@
 package com.xiaohao.mongodb.sample.domain;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
  * Created by xiaohao on 2015/1/20.
  */
+@Document
 public class Person {
 
     @Id
