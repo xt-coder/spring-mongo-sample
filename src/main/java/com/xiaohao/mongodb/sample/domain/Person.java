@@ -1,11 +1,15 @@
 package com.xiaohao.mongodb.sample.domain;
 
+import org.springframework.data.annotation.Id;
+
 /**
  * Created by xiaohao on 2015/1/20.
  */
 public class Person {
 
+    @Id
     public Long id;
+
 
     public String name;
 
