@@ -7,10 +7,14 @@ spring-mongo-sample是一个使用spring-data-mongo来操作mongodb的项目
 * 如何查看文件:
 
 'D:\mongodb-x86-64-2.6.3\bin>mongofiles.exe list
-connected to: 127.0.0.1
-test.txt        1084
-testt.txt       1084
-testtt.txt      1084 '
+
+ connected to: 127.0.0.1
+
+ test.txt        1084
+
+ testt.txt       1084
+
+ testtt.txt      1084 '
 
 以及spring-data-mongo的基本使用
 
