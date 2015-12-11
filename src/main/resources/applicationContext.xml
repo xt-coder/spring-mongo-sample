@@ -63,6 +63,16 @@
     <!-- mongodb bean的仓库目录，会自动扫描扩展了MongoRepository接口的接口进行注入 -->
     <mongo:repositories base-package="com.xiaohao.mongodb.sample.persist.mongodb"/>
 
+    <mongo:mapping-converter id="converter" />
+
+    <!--添加 gridfs 操作 -->
+    <bean class="org.springframework.data.mongodb.gridfs.GridFsTemplate">
+        <constructor-arg ref="mongoDbFactory" />
+        <constructor-arg ref="converter" />
+    </bean>
+
+
+
     <!-- 默认的注解映射的支持 -->
     <mvc:annotation-driven />
 

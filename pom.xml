@@ -124,7 +124,7 @@
                 <artifactId>maven-jetty-plugin</artifactId>
                 <version>6.1.10</version>
                 <configuration>
-                    <stopPort>9090</stopPort>
+                    <stopPort>9590</stopPort>
                     <stopKey>xiaohao</stopKey>
                     <scanIntervalSeconds>3</scanIntervalSeconds>
                     <connectors>
